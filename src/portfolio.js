@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "NoohFaisal",
+  title: "Hi all, I'm Nooh",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "An innovative Data Scientist with 3+ years of turning data into powerful stories 📊. Expert in data analytics, machine learning, and statistical modeling, I harness the power of Python, SQL, and AI to drive business growth and streamline operations. With a proven track record across healthcare, retail, and tech, I'm passionate about transforming complex data into actionable insights that fuel innovation and efficiency."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1OtAar1PqeYibd5qtlrVOMN55npb-gsF3/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/noohfaisal",
+  linkedin: "https://www.linkedin.com/in/nooh-faisal/",
+  gmail: "noohfaisal@gmail.com",
+  medium: "https://medium.com/@noohfaisal",
+  //gitlab: "https://gitlab.com/saadpasta",
+  //facebook: "https://www.facebook.com/saad.pasta7",
+  //stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,73 +49,49 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:"DATA SCIENTIST OBSESSED WITH TURNING COMPLEX DATA INTO ACTIONABLE INSIGHTS USING AI AND MACHINE LEARNING",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    <br></br>,
+    emoji("⚡ Design and optimize data pipelines for efficient data processing and storage using Python and SQL."),
+    emoji("⚡ Build predictive models and machine learning solutions to drive business growth and operational efficiency."),
+    emoji("⚡ Develop data visualizations and dashboards to enhance decision-making and stakeholder communication.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
+    <br></br>,
+    <br></br>,
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Tableau",
+      fontAwesomeClassname: "fas fa-chart-line"
+    },
+    {
+      skillName: "Machine Learning",
+      fontAwesomeClassname: "fas fa-laptop"
+    },
+    {
+      skillName: "NLP",
+      fontAwesomeClassname: "fas fa-comments"
+    },
+    {
+      skillName: "ETL",
+      fontAwesomeClassname: "fas fa-spinner"
+    },
+    
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    }  
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -126,23 +102,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "George Brown College",
+      logo: require("./assets/images/GBC.png"),
+      subHeader: "Postgraduate Certification: Applied AI Solutions Development",
+      duration: "January 2023 - December 2023",
+      desc: "GPA: 3.8/4.0",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Honored on the Dean's List for outstanding academic performance in both semesters."
+        
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Visvesvaraya Technological University",
+      logo: require("./assets/images/VTU.png"),
+      subHeader: "Bachelor of Engineering in Computer Science",
+      duration: "August 2017 - March 2022",
+      desc: "GPA: 3.2/4.0",
+      descBullets: []
     }
   ]
 };
@@ -153,15 +129,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Artificial Intelligence", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Programming",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Programming",
+      Stack: "Data Engineering",
       progressPercentage: "60%"
     }
   ],
@@ -174,29 +150,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Research And Development Associate",
+      company: "Pendium Health",
+      companylogo: require("./assets/images/phlogo.png"),
+      date: "January 2023 – December 2023",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Engineered and refined data pipelines for efficient preprocessing and storage by extracting data from public APIs, transforming, and optimizing it for storage in a vector database (Pinecone), expanding the database by 40% in two months.",
+        "Enhanced chat functionalities using retrieval-augmented generation techniques, increasing efficiency by 25%.",
+        "Developed a software feature that generates detailed consumer information during medication prescription, enhancing client interactions and increasing customer engagement by 35%.",
+        "Technologies: Python, Numpy, Pandas, Git, Langchain, OpenAI, Pinecone, LLM."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Data Analyst",
+      company: "Docker Group",
+      companylogo: require("./assets/images/docker.png"),
+      date: "Januaury 2020 – November 2022",
+      descBullets: ["Conducted exploratory data analysis on sales data to detect trends, driving a 10% growth in monthly revenue.",
+        "Built predictive model for sales forecasting using regression analysis, improving prediction accuracy by 15%.",
+        "Reporting sales and products popularity data using Tableau, supporting stakeholders in decision-making that increased product availability by 20% and improved customer satisfaction.",
+        "Oversaw inventory management, achieving a 25% optimization in stock levels and a 30% improvement in stock turnover through precise data analysis.",
+        "Technologies: Python, Microsoft Excel, MS SQL, Tableau."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Data Analyst",
+      company: "Cargo Mate",
+      companylogo: require("./assets/images/cargologo.png"),
+      date: "October 2021 – October 2022",
+      descBullets: ["Managed data collection and analysis, maintaining 99% uptime for SQL Server Databases and optimizing performance.",
+        "Streamlined data integration processes without comprising data security, saving over 8 hours per week.",
+        "Produced data visualizations to enhance stakeholder communication using Google Data Studio.",
+        "Technologies: MS SQL, BigQuery, GCP, Google Sheets, Google Data Studio."
+      ]
     }
   ]
 };
@@ -205,39 +192,41 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  //subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      //image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "FireWatch AI",
+      projectDesc: "Developed a smoke detection system using computer vision model (YOLOv8) based on cctv monitoring and drone imagery.",
+      
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "SnapDetect",
+      projectDesc: "Designed an AI-driven application to simplify the sale of household items during relocations by finetuning YOLOv8 object detection model.",
+      
+    },
+    {
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Prescription Parser",
+      projectDesc: "Refined a NER model by fine-tuning BERT to extract information from medical prescriptions.",
+      
+    },
+    {
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Mental Illness Detection",
+      projectDesc: "Developed a machine learning model to detect patterns in neuroimaging data linked to mental illnesses like depression and schizophrenia.",
+      
     }
+    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -300,7 +289,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +313,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +332,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,31 +345,31 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-
+  
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+971 56 170 3377",
+  email_address: "noohfaisal@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer

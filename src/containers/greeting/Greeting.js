@@ -8,6 +8,7 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import manOnTable from '../../assets/images/portfolio.png';
 
 export default function Greeting() {
   const {isDark} = useContext(StyleContext);
@@ -40,26 +41,22 @@ export default function Greeting() {
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
-                  <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
-                    className="download-link-button"
-                  >
-                    <Button text="Download my resume" />
-                  </a>
+                  
+                    <Button text="Download my resume"
+                    newTab={true}
+                    href={greeting.resumeLink} />
+                  
                 )}
               </div>
             </div>
           </div>
           <div className="greeting-image-div">
-            {illustration.animated ? (
-              <DisplayLottie animationData={landingPerson} />
-            ) : (
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/manOnTable.svg")}
+            <img
+                src={manOnTable}
+                alt="Man sitting on a table"
+                
               ></img>
-            )}
+            
           </div>
         </div>
       </div>
