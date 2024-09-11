@@ -26,7 +26,7 @@ const greeting = {
     "An innovative Data Scientist with 3+ years of turning data into powerful stories 📊. Expert in data analytics, machine learning, and statistical modeling, I harness the power of Python, SQL, and AI to drive business growth and streamline operations. With a proven track record across healthcare, retail, and tech, I'm passionate about transforming complex data into actionable insights that fuel innovation and efficiency."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1OtAar1PqeYibd5qtlrVOMN55npb-gsF3/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1w3PMSV8FeLhPvIMpwxgVlj30CGs9bxr5/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -241,55 +241,35 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      title: "Microsoft Certified: Azure Fundamentals",
+      //subtitle:
+      //  "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
+      image: require("./assets/images/microsoft.png"),
+      imageAlt: "Microsoft",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View",
+          url: "https://drive.google.com/file/d/1zPXR5OF1cEyyBwsiy3WyZDmNADpiehim/view?usp=sharing"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      title: "Google Data Analytics Professional Certificate",
+      //subtitle:
+      //"Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+      image: require("./assets/images/google.png"),
+      imageAlt: "Google Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View",
+          url: "https://drive.google.com/file/d/1Wytotbz5GaZGUjFR32YAEf7gOLzAWAKE/view?usp=sharing"
         }
       ]
     },
 
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
+    
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
