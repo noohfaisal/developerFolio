@@ -26,7 +26,7 @@ const greeting = {
     "An innovative Data Scientist with 3+ years of turning data into powerful stories 📊. Expert in data analytics, machine learning, and statistical modeling, I harness the power of Python, SQL, and AI to drive business growth and streamline operations. With a proven track record across healthcare, retail, and tech, I'm passionate about transforming complex data into actionable insights that fuel innovation and efficiency."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1w3PMSV8FeLhPvIMpwxgVlj30CGs9bxr5/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1IIjiPq8iG_cgYiPPUnEeDWzZbo-G323Z/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -149,6 +149,19 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "AI Engineer",
+      company: "Actualize",
+      companylogo: require("./assets/images/actualizeae_logo.png"),
+      date: "October 2024 – Present",
+      desc: "",
+      descBullets: [
+        "Designed and deployed 15+ LLM-powered automation and voice agents, reducing client operational costs by up to 35%.",
+        "Built DocTalk, a real-time speech-to-speech document assistant using OpenAI’s Realtime API, cutting document review time by 60%.",
+        "Conducted benchmarking and optimization across PDF extraction and AI generation pipelines, enhancing processing accuracy by 40%.",
+        "Technologies: Python, FastAPI, LangChain, OpenAI, LLMs, Voice AI, Prompt Engineering, Automation, Datadog, Git, Jira."
+      ]
+    },
     {
       role: "Research And Development Associate",
       company: "Pendium Health",
