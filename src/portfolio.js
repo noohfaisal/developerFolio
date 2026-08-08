@@ -23,10 +23,9 @@ const greeting = {
   username: "NoohFaisal",
   title: "Hi all, I'm Nooh",
   subTitle: emoji(
-    "An innovative Data Scientist with 3+ years of turning data into powerful stories 📊. Expert in data analytics, machine learning, and statistical modeling, I harness the power of Python, SQL, and AI to drive business growth and streamline operations. With a proven track record across healthcare, retail, and tech, I'm passionate about transforming complex data into actionable insights that fuel innovation and efficiency."
+    "An experienced AI Engineer and Data Scientist with 4+ years of expertise in data analytics, machine learning, and AI-driven automation 🤖. Skilled in Python, SQL, and building LLM-powered voice and automation agents, I help businesses turn complex data and workflows into production-grade AI solutions. With a proven track record across healthcare, retail, and tech, I'm passionate about transforming complex data sets into actionable insights that fuel innovation and efficiency."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1IIjiPq8iG_cgYiPPUnEeDWzZbo-G323Z/view?usp=sharing", // Set to empty to hide the button
+  resumeLink: process.env.PUBLIC_URL + "/Nooh_Resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,12 +48,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle:"DATA SCIENTIST OBSESSED WITH TURNING COMPLEX DATA INTO ACTIONABLE INSIGHTS USING AI AND MACHINE LEARNING",
+  subTitle:"AI ENGINEER BUILDING LLM-POWERED VOICE AGENTS AND AUTOMATION THAT TURN COMPLEX DATA INTO ACTIONABLE INSIGHTS",
   skills: [
     <br></br>,
-    emoji("⚡ Design and optimize data pipelines for efficient data processing and storage using Python and SQL."),
+    emoji("⚡ Design and deploy LLM-integrated voice and automation agents that reduce operational costs and manual work."),
     emoji("⚡ Build predictive models and machine learning solutions to drive business growth and operational efficiency."),
-    emoji("⚡ Develop data visualizations and dashboards to enhance decision-making and stakeholder communication.")
+    emoji("⚡ Engineer data pipelines, CRM integrations, and observability tooling to keep AI systems reliable in production.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -68,12 +67,32 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
       skillName: "SQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "Tableau",
-      fontAwesomeClassname: "fas fa-chart-line"
+      skillName: "LangChain",
+      fontAwesomeClassname: "fas fa-link"
+    },
+    {
+      skillName: "OpenAI",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "Claude",
+      fontAwesomeClassname: "fas fa-microchip"
+    },
+    {
+      skillName: "LiveKit",
+      fontAwesomeClassname: "fas fa-microphone"
+    },
+    {
+      skillName: "FastAPI",
+      fontAwesomeClassname: "fas fa-server"
     },
     {
       skillName: "Machine Learning",
@@ -84,14 +103,13 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-comments"
     },
     {
-      skillName: "ETL",
-      fontAwesomeClassname: "fas fa-spinner"
+      skillName: "Datadog",
+      fontAwesomeClassname: "fas fa-chart-line"
     },
-    
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    }  
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -129,16 +147,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Artificial Intelligence", //Insert stack or technology you have experience in
+      Stack: "Artificial Intelligence & Voice Agents", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Programming",
-      progressPercentage: "80%"
+      progressPercentage: "85%"
     },
     {
-      Stack: "Data Engineering",
-      progressPercentage: "60%"
+      Stack: "Automation & QA",
+      progressPercentage: "70%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -150,16 +168,32 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Forward Deployed Engineer",
+      company: "CNTXT",
+      companylogo: require("./assets/images/cntxtai_logo.jpeg"),
+      date: "February 2026 – Present",
+      desc: "",
+      descBullets: [
+        "Designed and deployed enterprise-grade end-to-end business AI solutions, specialising in AI-driven automation and voice agent development.",
+        "Led forward deployment engagements, working directly with enterprise clients to scope, build, and deliver custom AI-powered voice agents and workflows tailored to operational needs.",
+        "Owned the full QA lifecycle for the voice platform, including feature, regression, and API testing to ensure production stability.",
+        "Collaborated cross-functionally with product and engineering teams to triage and resolve client-reported incidents rapidly.",
+        "Technologies: Python, JavaScript, Claude, OpenAI, MCP, Claude Skills, LiveKit, Datadog, FastAPI, LangChain, LLM, Prompt Engineering, Automation, Postman, Git, Jira."
+      ]
+    },
+    {
       role: "AI Engineer",
       company: "Actualize",
       companylogo: require("./assets/images/actualizeae_logo.png"),
-      date: "October 2024 – Present",
+      date: "October 2024 – February 2026",
       desc: "",
       descBullets: [
-        "Designed and deployed 15+ LLM-powered automation and voice agents, reducing client operational costs by up to 35%.",
-        "Built DocTalk, a real-time speech-to-speech document assistant using OpenAI’s Realtime API, cutting document review time by 60%.",
-        "Conducted benchmarking and optimization across PDF extraction and AI generation pipelines, enhancing processing accuracy by 40%.",
-        "Technologies: Python, FastAPI, LangChain, OpenAI, LLMs, Voice AI, Prompt Engineering, Automation, Datadog, Git, Jira."
+        "Designed and deployed 15+ LLM-integrated automation agents (Agntix platform), reducing client operational costs by 20–35% and manual intervention by 50%.",
+        "Built DocTalk, a real-time speech-to-speech document assistant using OpenAI's Realtime API, cutting document review time by 60%.",
+        "Trained and fine-tuned in-house LLM and voice models, reducing API dependency and latency by 30%; benchmarked 7+ PDF extraction tools, improving parser selection accuracy by 50%.",
+        "Built DocEngine, an AI-driven legal document generation platform: redesigned RFP prompt templates (+25% accuracy), shipped LLM-powered dynamic section creation and summarization features (-40% drafting time), and built a benchmarking repo for AI document evaluation.",
+        "Executed 30+ feature tests, 60+ API tests, and 10+ end-to-end tests, achieving 95% defect detection before release.",
+        "Technologies: Python, JavaScript, FastAPI, LangChain, OpenAI, LLM, Prompt Engineering, Automation, Postman, Cypress, Zephyr, Datadog, Git, Jira."
       ]
     },
     {
@@ -237,9 +271,21 @@ const bigProjects = {
       //image: require("./assets/images/nextuLogo.webp"),
       projectName: "Mental Illness Detection",
       projectDesc: "Developed a machine learning model to detect patterns in neuroimaging data linked to mental illnesses like depression and schizophrenia.",
-      
+
+    },
+    {
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "DocTalk",
+      projectDesc: "Developed a proof of concept enabling real-time, speech-to-speech interaction with uploaded documents using OpenAI's Realtime API, reducing document review and comprehension time by 60%.",
+
+    },
+    {
+      //image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Employee Future Prediction",
+      projectDesc: "Developed a machine learning model that predicts employee turnover based on critical factors, using a curated dataset of 4,500 individuals, to improve employee retention.",
+
     }
-    
+
   ],
   display: true // Set false to hide this section, defaults to true
 };

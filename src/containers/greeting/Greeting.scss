@@ -18,7 +18,10 @@
 }
 
 .subTitle {
-  color: $subTitle !important;
+  color: $subTitle;
+}
+.dark-mode.subTitle {
+  color: $subTitleDark;
 }
 
 .greeting-main {
@@ -41,6 +44,10 @@
   font-size: 70px;
   line-height: 1.1;
   color: $textColor !important;
+  letter-spacing: -0.02em;
+}
+.dark-mode.greeting-text {
+  color: $textColorDark !important;
 }
 
 .greeting-text-p {

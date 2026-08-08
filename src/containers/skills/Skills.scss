@@ -8,10 +8,12 @@
 
 .skills-text-div {
   margin-left: 50px;
+  min-width: 0;
 }
 
 .skills-main-div > * {
   flex: 1;
+  min-width: 0;
   margin-bottom: 30px;
 }
 

@@ -43,11 +43,18 @@
   padding: 15px 20px;
   color: $textColor;
   text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
   background-color: $headerHoverBG;
+}
+
+.dark-menu li a {
+  border-radius: 6px;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .header .logo {
@@ -61,11 +68,16 @@
 }
 
 .header .logo-name {
-  font-family: "Agustina Regular";
-  font-weight: bold;
-  font-variant-ligatures: no-common-ligatures;
-  -webkit-font-variant-ligatures: no-common-ligatures;
-  padding: 0 10px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 700;
+  padding: 0 4px;
+}
+
+.header .logo {
+  transition: opacity 0.2s ease;
+}
+.header .logo:hover {
+  opacity: 0.75;
 }
 
 /* menu */
